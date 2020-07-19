@@ -1,0 +1,10 @@
+# Chat Tools config by bobyjones.
+
+filter:
+  - "www"
+  - "com"
+ 
+translatecolorcode: '&'
+
+slowmode: false
+slowmodedelay: 5

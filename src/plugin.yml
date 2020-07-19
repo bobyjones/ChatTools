@@ -1,0 +1,41 @@
+version: 1.0
+author: bobyjones
+main: ChatTools.Main
+name: ChatTools
+api-version: 1.13
+
+commands:
+  ChatTools:
+    description: Open ChatTools
+    usage: /ChatTools
+    aliases: [ct, ctools]
+    permission: ChatTools.ChatToolsMenu
+    
+permissions:
+  ChatTools.ChatToolsMenu:
+    default: op
+    description: Ablility to open menu
+  ChatTools.MuteChatBypass:
+    default: op
+    description: Ability to chat while its muted 
+  ChatTools.TranslateColorCodes:
+    default: op
+    description: Ability to use colorcodes in chat. Default is & can be set in config
+  ChatTools.SeeFiltered:
+    default: op
+    description: See all messages that have been filtered
+  ChatTools.BypassFiltered:
+    default: op
+    description: Bypass chat filter
+  ChatTools.SlowmodeBypass:
+    default: op
+    description: bypass slowmode timer
+  ChatTools.ChatToolsMenu.MuteChat:
+    default: op
+  ChatTools.ChatToolsMenu.ClearChat:
+    default: op
+  ChatTools.ChatToolsMenu.AddToFilter:
+    default: op
+  ChatTools.ChatToolsMenu.SlowmodeSettings:
+    default: op
+  
